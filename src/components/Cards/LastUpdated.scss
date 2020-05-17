@@ -1,0 +1,17 @@
+@import "../../sass/global";
+
+.last-updated {
+  width: 100%;
+  max-width: 500px;
+  align-self: center;
+  @include flexbox(row,center,center);
+  padding: 1em;
+  border-radius: $border-radius;
+  background-color: $color2;
+  &-text {
+    font-weight: 550;
+  }
+  &-time{
+    color:$color3;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../sass/global";
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  &-container {
+    width: 100%;
+    max-width: $container-size;
+    padding: 1em;
+    @include flexbox(column, flex-start, center);
+    & > * {
+      margin-bottom: 1.5em;
+    }
+  }
+}
